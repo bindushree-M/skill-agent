@@ -1,20 +1,24 @@
 # Skill Agent
 
 ## Project Description
-This project is built for submission and demonstrates backend/Java skills.
+Skill Agent is an AI-based skill assessment web application that analyzes user input (skill, level, and goal) and provides a personalized learning roadmap.
 
 ## Features
-- Feature 1
-- Feature 2
-- Feature 3
+- Takes user input (Skill, Level, Goal)
+- Generates dynamic roadmap based on frontend/backend goal
+- Handles invalid inputs and spelling mistakes
+- Interactive UI with modern design
+- Backend API using Flask
 
 ## Tech Stack
-- Java
-- SQL
+- Python (Flask)
+- HTML
+- CSS
+- JavaScript
 - Git & GitHub
 
 ## How to Run
-Clone the repository and run it in your IDE.
 
+### 1. Clone the repository
 ```bash
 git clone https://github.com/bindushree-M/skill-agent.git
