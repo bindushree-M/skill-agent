@@ -13,6 +13,12 @@ async function submitData() {
 
   const data = await response.json();
 
+  //  Error handling
+  if (data.error) {
+    document.getElementById("output").innerText = data.error;
+    return;
+  }
+
   document.getElementById("output").innerText =
     "Score: " + data.score + "\n" +
     "Goal: " + data.goal + "\n" +
